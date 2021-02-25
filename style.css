@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --brightYellow: hsl(71, 73%, 54%);
+    --lightGray: hsl(204, 43%, 93%);
+    --grayishBlue: hsl(217, 22%, 67%);
+}
+
+body {
+    padding-top: 4.5rem;
+    font-size: 1rem;
+    font-family: 'Karla',
+    sans-serif;
+    font-weight: 400;
+    background: var(--lightGray);
+}
+
+main {
+    margin: 0 auto;
+    width: 82.848%;
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+}
+
+.card {
+    padding: 0 1.5375rem;
+}
+
+h3,
+#card-1 span {
+    font-weight: 700;
+}
+
+#card-1 {
+    padding-top: 2.105rem;
+    padding-bottom: 2.375rem;
+    background: white;
+}
+
+#card-1 h3 {
+    margin-bottom: 2.105rem;
+    color: var(--cyan);
+}
+
+#card-1 span {
+    display: block;
+    margin-bottom: 1.455rem;
+    color: var(--brightYellow);
+}
+
+#card-1 p {
+    line-height: 1.5;
+    color: var(--grayishBlue);
+}
+
+#card-2 {
+    padding-top: 1.755rem;
+    padding-bottom: 1.4625rem;
+    background: var(--cyan);
+}
+
+#card-2 h3 {
+    margin-bottom: 1.305rem;
+}
+
+#big {
+    margin-right: 0.8775rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#color {
+    color: #74D1D7;
+    vertical-align: super;
+}
+
+#card-2 p {
+    margin-top: 0.9475rem;
+    margin-bottom: 1.78rem;
+}
+
+button {
+    display: block;
+    padding-top: 1.08rem;
+    padding-bottom: 0.8775rem;
+    width: 100%;
+    font-size: inherit;
+    border-radius: 8px;
+    border: none;
+    background: var(--brightYellow);
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+#card-3 {
+    padding-top: 1.6875rem;
+    padding-bottom: 1.6425rem;
+    background: #4ABEBD;
+}
+
+#card-3 h3 {
+    margin-bottom: 1.3125rem;
+}
+
+#card-3 p {
+    line-height: 1.5;
+    color: #A5E7EF;
+}
